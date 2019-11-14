@@ -1,0 +1,32 @@
+.servicos {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+   .servicos__produto {
+      width: 49%;
+      height: 400px;
+      margin: 0;
+      color: white;
+      background-color: black;
+      border: .5px solid white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+      .servicos__produto___conteudo {
+         width: 80%;
+         height: 50%;
+         text-align: center;
+
+      }
+         .servicos__produto___conteudo____titulo {
+            padding: 25px;
+            font-size: 2em;
+            text-align: center;
+         }
+         .servicos__produto___conteudo____descricao {
+            width: 70%;
+            margin: auto;
+         }

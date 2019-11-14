@@ -1,0 +1,47 @@
+/* estitlos da seção CLIENTES */
+
+.clientes {
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+   .clientes__empresa {
+      width: 19.9%;
+      height: 250px;
+      background-color: lightgray;
+      border: .5px solid white;
+      display: flex;
+   }
+      .clientes__empresa___logo {
+         display: inline-block;
+         width: 90%;
+         margin: auto;
+      }
+
+   .clientes__lista {
+      width: 100%;
+      font-size: 1.5em;
+      color: black;
+      text-align: center;
+      padding: 30px;
+      text-decoration: none;
+      border: 1px solid blue;
+   }
+   .clientes__lista:hover {
+      text-decoration: underline;
+   }
+
+   .clientes__citacao {
+      font-size: 1.5em;
+      text-align: justify;
+      width: 35%;
+      padding: 5px;
+      margin-left: 10%;
+      line-height: 1.5em;
+   }
+      .clientes__citacao___rodape {
+         text-align: right;
+         font-weight: bold;
+         padding: 20px;
+      }

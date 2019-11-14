@@ -1,0 +1,16 @@
+/* estilos seção INDUSTRIAS */
+
+.industrias {
+   width: 95%;
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+}
+   .industrias__segmento {
+      width: 50%;
+      height: 400px;
+      background-color: black;
+      color: white;
+      border: .5px solid white;
+      text-align: center;
+   }
